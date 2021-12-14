@@ -1,11 +1,13 @@
-import React from 'react';
-import {Typography} from '@material-ui/core';
+import React from "react";
+import PersonalDetails from './PersonalDetails'
+import Questions  from "./Questions";
 
 const Questionnaire = () => {
-   return(
-      <div>
-      <Typography>
-      Questionnaire</Typography></div>
-   )
-}
-export default Questionnaire
+  return (
+    <div style={{ marginTop: "80px" }}>
+      <PersonalDetails />
+      <Questions />
+    </div>
+  );
+};
+export default Questionnaire;
