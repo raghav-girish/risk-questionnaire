@@ -6,52 +6,48 @@ import {
   FormControlLabel,
   Radio,
 } from "@material-ui/core";
-import useStyles from "./questionnairestyles";
-import Line from './colouredline';
+import useStyles from "../questionnairestyles";
+import Line from "../colouredline";
 
-const Qn1 = () => {
+const Qn12 = () => {
   const classes = useStyles();
   return (
     <div style={{ marginTop: "10", marginBottom: "10" }}>
       <Typography className={classes.questionTypography}>
-        Qn1.Which of the following best describes your current stage of life?
+        Qn. 12) Assuming an inflation rate of 5-7% p.a. over a medium to
+        long-term horizon (3 to 5yr+) what return do you reasonably expect from
+        your investments?
       </Typography>
       <FormControl component="fieldset">
-        <RadioGroup aria-label="qn1">
+        <RadioGroup aria-label="qn12">
           <FormControlLabel
-            value="Single"
+            value="Inflation rate plus 2 - 4% p.a. "
             control={<Radio color="primary" />}
-            label="Single"
+            label="Inflation rate plus 2 - 4% p.a. "
           />
           <Line />
           <FormControlLabel
-            value="Single with dependant parents"
+            value="Inflation rate plus 5 - 7% p.a. "
             control={<Radio color="primary" />}
-            label="Single with dependant parents"
+            label="Inflation rate plus 5 - 7% p.a. "
           />
           <Line />
           <FormControlLabel
-            value="Young family"
+            value="Inflation rate plus 8 - 10% p.a. "
             control={<Radio color="primary" />}
-            label="Young family"
+            label="Inflation rate plus 8 - 10% p.a. "
           />
           <Line />
           <FormControlLabel
-            value="Mature Family"
+            value="Inflation rate plus 11 - 15% p.a. "
             control={<Radio color="primary" />}
-            label="Mature Family"
+            label="Inflation rate plus 11 - 15% p.a. "
           />
           <Line />
           <FormControlLabel
-            value="Nearing retirement"
+            value="More than 15% p.a. over inflation rate "
             control={<Radio color="primary" />}
-            label="Nearing retirement"
-          />
-          <Line />
-          <FormControlLabel
-            value="Retired"
-            control={<Radio color="primary" />}
-            label="Retired"
+            label="More than 15% p.a. over inflation rate "
           />
           <Line />
         </RadioGroup>
@@ -59,4 +55,4 @@ const Qn1 = () => {
     </div>
   );
 };
-export default Qn1;
+export default Qn12;

@@ -6,8 +6,8 @@ import {
   FormControlLabel,
   Radio,
 } from "@material-ui/core";
-import useStyles from "./questionnairestyles";
-import Line from "./colouredline";
+import useStyles from "../questionnairestyles";
+import Line from "../colouredline";
 
 const Qn2 = () => {
   const classes = useStyles();
