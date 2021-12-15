@@ -1,6 +1,4 @@
 import React from "react";
-import { Card, CardContent } from "@material-ui/core";
-import useStyles from "./questionnairestyles";
 import Qn1 from "./Questions/qn1";
 import Qn2 from "./Questions/qn2";
 import Qn3 from "./Questions/qn3";
@@ -17,27 +15,22 @@ import Qn13 from "./Questions/qn13";
 import Qn14 from "./Questions/qn14";
 
 const Questions = () => {
-  const classes = useStyles();
   return (
     <div>
-      <Card className={classes.card}>
-        <CardContent>
-          <Qn1 />
-          <Qn2 />
-          <Qn3 />
-          <Qn4 />
-          <Qn5 />
-          <Qn6 />
-          <Qn7 />
-          <Qn8 />
-          <Qn9 />
-          <Qn10 />
-          <Qn11 />
-          <Qn12 />
-          <Qn13 />
-          <Qn14 />
-        </CardContent>
-      </Card>
+      <Qn1 />
+      <Qn2 />
+      <Qn3 />
+      <Qn4 />
+      <Qn5 />
+      <Qn6 />
+      <Qn7 />
+      <Qn8 />
+      <Qn9 />
+      <Qn10 />
+      <Qn11 />
+      <Qn12 />
+      <Qn13 />
+      <Qn14 />
     </div>
   );
 };

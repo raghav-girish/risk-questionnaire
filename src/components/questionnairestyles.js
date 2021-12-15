@@ -1,37 +1,39 @@
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles(() => ({
   toolBar: {
     borderRadius: 15,
     //margin: '10px',
-    display: 'flex',
-    flexDirection: 'row',
+    display: "flex",
+    flexDirection: "row",
     //justifyContent: 'center',
-    alignItems: 'center',
-    background: '#1976D2',
+    alignItems: "center",
+    background: "#1976D2",
   },
   toolBar1: {
-   borderRadius: 15,
-   //margin: '10px',
-   display: 'flex',
-   flexDirection: 'row',
-   //justifyContent: 'center',
-   alignItems: 'center',
-   background: '#1976D2',
-   height:'18px'
- },
-  card:{
-     width:"70%",
-     marginLeft:"15%",
-     marginRight:"15%",
-     marginTop:"5px",
-     marginBottom:"5px"
+    borderRadius: 15,
+    //margin: '10px',
+    display: "flex",
+    flexDirection: "row",
+    //justifyContent: 'center',
+    alignItems: "center",
+    background: "#1976D2",
+    height: "18px",
   },
-  questionTypography:{
-     fontSize:'18px',
-     fontWeight:'bold'
+  card: {
+    width: "60%",
+    marginLeft: "20%",
+    marginRight: "20%",
+    marginTop: "15px",
+    marginBottom: "15px",
   },
-  radio:{
-     color:'#1976D2'
-  }
+  questionTypography: {
+    fontSize: "20px",
+    fontWeight: "600",
+    color: "#303F9F",
+    marginBottom: "10px",
+  },
+  radio: {
+    color: "#1976D2",
+  },
 }));
