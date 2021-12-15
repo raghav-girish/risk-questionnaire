@@ -1,10 +1,10 @@
 import React from "react";
-import PersonalDetails from './PersonalDetails'
-import Questions  from "./Questions";
+import PersonalDetails from "./PersonalDetails";
+import Questions from "./Questions";
 
 const Questionnaire = () => {
   return (
-    <div style={{ marginTop: "80px" }}>
+    <div>
       <PersonalDetails />
       <Questions />
     </div>

@@ -7,6 +7,7 @@ import {
   Radio,
   Card,
   CardContent,
+  Button,
 } from "@material-ui/core";
 import useStyles from "../questionnairestyles";
 import Line from "../colouredline";
@@ -37,6 +38,19 @@ const Qn14 = () => {
             </RadioGroup>
           </FormControl>
         </CardContent>
+        <Button
+          variant="contained"
+          size="large"
+          style={{
+            backgroundColor: "#3949AB",
+            width: "60%",
+            marginLeft: "20%",
+            marginRight: "20%",
+            marginBottom: "20px",
+          }}
+        >
+          <Typography style={{ color: "white", fontSize:"17px", fontWeight:"bold" }}>Submit</Typography>
+        </Button>
       </Card>
     </div>
   );

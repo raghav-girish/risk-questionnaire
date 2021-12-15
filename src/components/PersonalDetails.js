@@ -1,16 +1,9 @@
 import React from "react";
-import { Grid, TextField, Card, CardContent, Button } from "@material-ui/core";
+import { Grid, TextField, Card, CardContent } from "@material-ui/core";
 import useStyles from "./questionnairestyles";
 
 const PersonalDetails = () => {
-  const uploadFaculty = (e) => {
-    const FIRST_NAME = e.taret.F_NAME.value;
-    const MIDDLE_NAME = e.taret.M_NAME.value;
-    const LAST_NAME = e.taret.L_NAME.value;
-    const MOBILE_NO = e.taret.MOB_NO.value;
-    const MAIL_ID = e.taret.MAIL.value;
-    console.log(FIRST_NAME, MIDDLE_NAME, LAST_NAME, MOBILE_NO, MAIL_ID);
-  };
+  
 
   const classes = useStyles();
   return (
@@ -78,11 +71,6 @@ const PersonalDetails = () => {
               />
             </Grid>
           </Grid>
-          <Button variant="contained" color="primary" 
-          //onClick={uploadFaculty}
-          >
-            Submit
-          </Button>
         </CardContent>
       </Card>
     </div>

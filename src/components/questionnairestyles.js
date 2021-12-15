@@ -26,6 +26,7 @@ export default makeStyles(() => ({
     marginRight: "20%",
     marginTop: "15px",
     marginBottom: "15px",
+    backgroundColor:"#E3F2FD"
   },
   questionTypography: {
     fontSize: "20px",
